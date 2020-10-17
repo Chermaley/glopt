@@ -1,0 +1,41 @@
+.work{
+    padding-top: 51px;
+    padding-bottom: 57px;
+    &__title{
+        text-align: center;
+    }
+    &__subtitle{
+        text-align: center;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        margin-top: 37px;
+        column-gap: 30px;
+    }
+    &__item{
+        &-img{
+            img{
+                width: 100%;
+            }
+         
+        }
+        &-title{
+            margin-top: 28px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: $main-color;
+        }
+        &-descr{
+            width: 359px;
+            margin-top: 18px;
+            text-align: justify;
+            text-align-last: center;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+    }
+}

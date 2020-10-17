@@ -1,0 +1,64 @@
+.review{
+    position: relative;
+    padding-top: 51px;
+    padding-bottom: 65px;
+    &__title{
+        text-align: center;
+    }
+    &__subtitle{
+        text-align: center;
+    }
+    &__wrapper{
+        margin-top: 31px;
+    }
+    &__item{     
+        margin: 0 auto;
+        &-photo{
+            img{
+                margin: 0 auto;
+                width: 114px;
+                height: 114px;
+                border-radius: 50%;
+            }
+        }
+        &-title{
+            margin-top: 19px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-descr{
+            margin: 0 auto;
+            text-align-last: center;
+            text-align: justify;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            max-width: 601px;
+        }
+    }
+    .slick-next {
+        width: 14px;
+        height: 46px;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        top: 34px;
+        right: 420px;
+    }
+    .slick-prev{
+        z-index: 2;
+        width: 14px;
+        height: 46px;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        top: 34px;
+        left: 420px;
+    }
+}
+
+.divider{
+    margin-top: 25px;   
+}

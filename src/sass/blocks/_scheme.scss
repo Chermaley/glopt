@@ -1,0 +1,45 @@
+.scheme{
+    padding-top: 51px;
+    padding-bottom: 46px;
+    background-color: #f3f3f3;
+    &__title{
+        text-align: center;
+    }
+    &__wrapper{
+        margin-top: 29px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    &__item{
+        margin-top: 20px;
+        margin-right: 20px;
+        max-width: 257px;
+        display: flex;
+        flex-direction: column;
+        &-title{
+        text-align: center;
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        }
+        &-icon{
+            display: flex;
+            justify-content: center;
+            min-height: 57px;
+        }
+        &-body{
+            margin-top: 7px;
+            min-height: 54px;
+        }
+        &-descr{
+            margin-top: 2px;   
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+    }
+
+}

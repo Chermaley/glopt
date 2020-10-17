@@ -1,0 +1,102 @@
+footer {
+    padding-top: 42px;
+    padding-bottom: 28px;
+    background-color: #25333c;
+}
+
+.footer {
+    position: relative;
+
+    &__head {
+        display: flex;
+        align-items: center;
+
+        &-title {
+            margin-left: 43px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &-contacts {
+            display: flex;
+            margin-left: 260px;
+            align-items: center;
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        &-questions {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+
+        &-phone {
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+
+        &-btn {
+            margin-left: 18px;
+            width: 160px;
+            height: 45px;
+            cursor: pointer;
+        }
+    }
+
+    &__divider {
+        margin-top: 26px;
+        background-color: #ffffff;
+        width: 100%;
+        height: 1px;
+        opacity: 0.3;
+    }
+    &__basement{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        &-copyright{
+            opacity: 0.6;
+            a{
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 300;
+                text-decoration: none;
+            }   
+        }
+        &-policy{
+            margin-left: 223px;
+            a{
+                text-decoration: none;
+                color:$main-color;
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+        &-made{
+            margin-left: 456px;
+            display: flex;
+            align-items: center;
+        }
+        &-text{
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        &-icon{
+            margin-left: 10px;
+        }
+    }
+
+
+}

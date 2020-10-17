@@ -1,0 +1,38 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.divider{
+    display: block;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 25px auto 17px auto;
+
+}
+
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/manage';
+@import 'blocks/scheme';
+@import 'blocks/review';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/menu';
+
+@import 'blocks/media';

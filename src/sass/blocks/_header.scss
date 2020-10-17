@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    align-items: center;
+    &__logo{
+        margin-right: 55px;
+    }
+    &__list{
+        max-width: 600px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #ec644b;
+        a{
+            color: #ffffff;;
+            text-decoration: none;
+            &:hover{
+                color: $main-color;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        } 
+        
+    }
+    &__item{
+        z-index: 2;
+        position: relative;
+        margin-right: 24px;
+        &:before{
+            position: absolute;
+            content: '';
+            height: 23px;
+            background: white;
+            opacity: 0.3;
+            border-left: 1px dotted #666;
+            z-index: -1;
+            top: -25%;
+            left: -13.5px;
+        }
+        &:first-child{
+            &:before{
+                display: none;
+            }
+        }
+        &:last-child{
+            margin: 0;
+        }
+        
+    }
+    &__contacts{
+        display: flex;
+        margin-left: 50px;
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__question{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    &__phone{
+        
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+    &__btn{
+        margin-left: 18px;
+        width: 160px;
+        height: 45px;
+        cursor: pointer;
+    }
+}

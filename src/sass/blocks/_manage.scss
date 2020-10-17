@@ -1,0 +1,19 @@
+.manage{
+    padding-top: 58px;
+    padding-bottom: 76px;
+    background: url(../../img/manage-bg.png) center (center/cover) no-repeat;
+    &__icon{
+        text-align: center;
+    }
+    &__title{
+        margin-top: 20px;
+        text-align: center;
+        color: #ffff;
+        text-transform: none;
+    }
+    &__subtitle{
+        margin-top: 22px;
+        text-align: center;
+        color: #ffff;
+    }
+}
